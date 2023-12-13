@@ -1,11 +1,12 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../theme/theme';
-import { Button, Heading, Paragraph } from '.';
+import { Button, Heading, Paragraph, Logo } from '.';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <div>
+        <Logo />
         <Button text="Users" option="users" disabled />
         <Button text="Sign up" />
         <Heading text="lorem ipsum" option="h1" />
