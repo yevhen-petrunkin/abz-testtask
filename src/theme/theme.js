@@ -4,20 +4,25 @@ import { createTheme } from '@mui/material/styles';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: 'var(--primary)',
-      light: 'var(--primary-hover)',
+      main: '#f4e041',
+      light: '#ffe302',
     },
     secondary: {
-      main: 'var(--secondary-main)',
-      light: 'var(--secondary-light)',
-      contrastText: 'var(--secondary-contrast)',
+      main: '#7e7e7e',
+      light: '#b4b4b4',
+      dark: 'rgba(0, 0, 0, 0.87)',
+      contrastText: '#d0cfcf',
     },
     error: {
-      main: 'var(--error)',
+      main: '#cb3d40',
     },
     info: {
-      main: 'var(--info-main)',
-      light: 'var(--info-light)',
+      main: '#00bdd3',
+    },
+
+    alternate: {
+      main: '#ffffff',
+      vague: 'rgba(255, 255, 255, 0.87)',
     },
   },
 
@@ -25,7 +30,6 @@ export const theme = createTheme({
     fontFamily: 'Nunito, sans-serif',
 
     h1: {
-      color: 'var(--info-light)',
       fontWeight: 'var(--default-weight)',
       fontSize: 'var(--special-size)',
       lineHeight: 'var(--special-lheight)',
