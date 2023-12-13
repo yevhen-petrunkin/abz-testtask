@@ -1,11 +1,19 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../theme/theme';
-import { Button, Heading, Paragraph, Logo, Avatar, Container } from '.';
+import { Button, Heading, Paragraph, Logo, Avatar, Container, Loader } from '.';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Container>
+        <Loader
+          style={{
+            width: '200px',
+            height: '200px',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        />
         <Avatar />
         <Logo />
         <Button text="Users" option="users" disabled />
