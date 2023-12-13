@@ -43,7 +43,7 @@ export const theme = createTheme({
 
     body1: {
       fontWeight: 'var(--default-weight)',
-      fontSize: '1rem',
+      fontSize: 'var(--default-size)',
       lineHeight: 'var(--default-lheight)',
     },
 

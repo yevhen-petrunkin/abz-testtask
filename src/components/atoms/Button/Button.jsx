@@ -6,6 +6,7 @@ const Button = ({
   disabled = false,
   type = 'button',
   onClick,
+  style = {},
 }) => {
   const pl = option === 'more' ? '19px' : option === 'users' ? '29px' : '23px';
   const pr = option === 'more' ? '18px' : option === 'users' ? '29px' : '22px';
@@ -32,6 +33,8 @@ const Button = ({
           backgroundColor: 'secondary.light',
           color: 'alternate.vague',
         },
+
+        ...style,
       }}
       onClick={onClick}
     >
