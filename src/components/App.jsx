@@ -1,11 +1,11 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../theme/theme';
-import { Button, Heading, Paragraph, Logo, Avatar } from '.';
+import { Button, Heading, Paragraph, Logo, Avatar, Container } from '.';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <div>
+      <Container>
         <Avatar />
         <Logo />
         <Button text="Users" option="users" disabled />
@@ -17,7 +17,7 @@ const App = () => {
           isHero
         />
         <Paragraph text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti facilis tempora ducimus animi ab rerum est? Deleniti repudiandae in, quis minima distinctio pariatur illum maiores dolorem et assumenda ipsa sed hic nisi sunt. Quos facilis quas maxime eum totam." />
-      </div>
+      </Container>
     </ThemeProvider>
   );
 };
