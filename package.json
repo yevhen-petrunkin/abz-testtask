@@ -1,5 +1,5 @@
 {
-  "name": "webpack-react-starter",
+  "name": "abz-testtask",
   "version": "1.0.0",
   "homepage": "https://yevhen-petrunkin.github.io/webpack-react-starter-sass/",
   "description": "",
@@ -13,11 +13,19 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "keywords": [],
-  "author": "Skjold <mmm@mail.com>",
+  "keywords": [
+    "abz",
+    "abz agency",
+    "testtask",
+    "javascript"
+  ],
+  "author": "Yevhen Petrunkin <novamovaxxi@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

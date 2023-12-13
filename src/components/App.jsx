@@ -1,10 +1,12 @@
-import { Component } from './component';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from '../theme/theme';
+import Button from '@mui/material/Button';
 
 const App = () => {
   return (
-    <div>
-      Hello World! <Component />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>App</div>
+    </ThemeProvider>
   );
 };
 

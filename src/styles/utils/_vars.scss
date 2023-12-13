@@ -1,20 +1,35 @@
 :root {
   /* Colors */
-  //   --white-color: #ffffff;
-  --blue-color: #2196f3;
-  //   --submit-hover-color: #188ce8;
+  --primary: #f4e041;
+  --primary-hover: #ffe302;
+
+  --secondary-main: #7e7e7e;
+  --secondary-contrast: #d0cfcf;
+  --secondary-light: #b4b4b4;
+  --secondary-dark: rgba(0, 0, 0, 0.87);
+
+  --error: #cb3d40;
+  --info-main: #00bdd3;
+  --info-light: #ffffff;
+
+  --background: #f8f8f8;
 
   //   /* Fonts */
-  //   --roboto: 'Roboto', sans-serif;
-  //   --raleway: 'Raleway', sans-serif;
+  --nunito: nunito_f, sans-serif;
 
-  //   // Timing function
+  --default-size: 1rem,
+  --special-size: 40px;
 
-  //   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --default-weight: 400;
+
+  --default-lheight: 1.63;
+  --special-lheight: 1;
+
 }
 
-$redColor: red;
-// $mobileMax: 767px;
-// $tabletMin: 768px;
-// $tabletMax: 1199px;
-// $desktopMin: 1200px;
+// Breakpoints
+
+$small: 360px;
+$medium: 768px;
+$large: 1024px;
+$extra-large: 2560px;

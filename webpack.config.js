@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      title: 'React-App',
+      title: 'ABZ-testtask',
       template: path.resolve(__dirname, './index.html'),
       filename: 'index.html',
     }),
